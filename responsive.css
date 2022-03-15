@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     width: 100vw;
+    height:auto;
     background-color: hsl(210, 46%, 95%);
   }
   .container {
@@ -39,6 +40,9 @@
 }
 
 @media screen and (max-width: 550px) {
+  body{
+    height:auto;
+  }
   .container{
     display: grid;
     grid-template-rows: 470px 265px 220px 460px 500px;
